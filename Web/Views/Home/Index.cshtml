@@ -1,0 +1,205 @@
+﻿@model IEnumerable<Web.Models.Product>
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOTY - Domů</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="~/favicon.png">
+    <link rel="stylesheet" href="~/css/headerStyleMobile.css">
+    <link rel="stylesheet" href="~/css/mainStyleMobile.css">
+    <link rel="stylesheet" href="~/css/forAll.css">
+    <link rel="stylesheet" href="~/css/footerStyleMobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/headerStyleDesktop.css">
+    <link rel="stylesheet" href="~/css/mainStyleDesktop.css">
+    <link rel="stylesheet" href="~/css/footerStyleDesktop.css">
+
+
+</head>
+
+<body>
+    <div class="blueStripeFull">
+        <div class="blueStripe smallPadding">
+              <div class="blueStripePhoneNumber"><img src="~/img/8.png" alt=""><p id="areaCode">+420</p><a href="tel:+420777666555">777 666 555</a> | <a href="mailto:info@nejlepsiboty.cz">info@nejlepsiboty.cz</a></div>       
+            
+            @if (ViewBag.IsAdmin ==true)
+            {
+                <div class="blueStripeUserLogo"><p id="logInText"><a asp-action="LogOut" asp-controller="Login">Odhlásit se</a></p><img src="~/img/profile-user.svg" alt="profile-user-icon"></div>
+            }
+            else
+            {
+                <div class="blueStripeUserLogo"><p id="logInText"><a asp-action="Index" asp-controller="Login">Přihlásit se</a></p><img src="~/img/profile-user.svg" alt="profile-user-icon"></div>
+            }
+    </div>
+    </div>
+    <div class="tomidheader">
+        <header>
+            @if (ViewBag.IsAdmin==true){
+            <div class="admin">
+                <div><a asp-controller="Orders" asp-action="Index">SPRÁVA OBJEDNÁVEK</a></div>
+                    <div><a asp-controller="Products" asp-action="Index">SPRÁVA PRODUKTŮ</a></div>
+            </div>
+            }
+            <div class="logoStripe smallPadding">
+                <div><a asp-action="Index" asp-controller="Home"><img src="~/img/Group4.png" alt="boty-logo"></a></div>
+                <div class="logoStripeIcons">
+                    <form action="search.php">
+                        <img id="img1" src="~/img/loupe.png" alt="loupe-logo"><input placeholder="Vyhledat zboží...">
+                    </form>
+                    <a asp-action="Index" asp-controller="Cart"><img id="img2" src="~/img/cart.png" alt="cart-logo"></a><a href=""><img src="~/img/heart.png" alt="heart-logo" id="imgSrdce"></a>
+                </div>
+            </div>
+            <nav>
+                <div>Chlapecké <img src="~/img/Group169.png" alt="boy-icon"></div>
+                <div>Dívčí <img src="~/img/Group171.png" alt="girl-icon"></div>
+                <div>Doplňky</div>
+                <div>Ostatní</div>
+                <div id="navContacs"><a href="#ScrollContacts">Kontakty</a></div>
+            </nav>
+            
+            <div class="slider">
+
+                <div class="imgBx">
+                    <img src="~/img/pozadi_pozadi.png" alt="">
+                    <div class="topText">
+                        Nová dívčí Kolekce
+                        šetrná k dětským nohám
+                    </div>
+                    <div class="downText">
+                        NEJEN DO MĚSTA,
+                        ALE I DO PŘÍRODY
+                    </div>
+                    <div class="zobrProd btnOffer textCenter"><a href="#nabidka">Zobrazit produkty</a></div>
+                    <div class="threeRadioButtons">
+                        <div class="sliderBtns productColorsButtons radio-group">
+                            <input class="sliderBtn" checked type="radio" name="slider">
+                            <input class="sliderBtn" type="radio" name="slider">
+                            <input class="sliderBtn" type="radio" name="slider">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="categories">
+                <a href="" id="section1"></a>
+                <a href="" id="section2"></a>
+                <a href="" id="section3"></a>
+            </div>
+
+        </header>
+    </div>
+    <div class="alltomid">
+        <main>
+            <div class="lineLogoLine" id="idkidc">
+                <div class="line"></div>
+                <div class="midddd"><img src="~/img/Group295.png" alt="crossfootlogo"></div>
+                <div class="line"></div>
+            </div>
+            <div class="rndmTexts">
+                <div class="rndmText1">Nejnovější kousky</div>
+                <div class="rndmText2">v naší nabídce</div>
+            </div>
+
+            <div class="offering" id="nabidka">
+                @foreach (var p in Model)
+                {
+                    <div class="product">
+                        <a asp-action="Index" asp-controller="Detail" asp-route-id="@p.Id"><img src="@p.MainPhoto().ImgPath.Remove(0,7)"></a>
+                        <p>@p.ProductName</p>
+                        <div class="inline">
+                            <div class="prices">
+                                <p class="price1">@p.Price Kč</p>
+                                <p class="price2">@p.OldPrice Kč</p>
+                            </div>
+                            <div class="cartPhoto">
+                                <a><img src="~/img/cart.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            
+            <br><br>
+
+            <div class="lineLogoLine">
+                <div class="line"></div>
+                <div class="midddd"><img src="~/img/Group295.png" alt="crossfootlogo"></div>
+                <div class="line"></div>
+            </div>
+            <div class="circleInfo">
+                <a><img src="~/img/Group195.png" alt="">VŠE MÁME SKLADEM</a>
+                <a><img src="~/img/Group196.png" alt="">DOPRAVA ZDARMA</a>
+                <a><img src="~/img/Group293.png" alt="">JAK MĚŘIT VELIKOSTI</a>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="newsletter">
+            <div id="nlText1" class="relative">Nezmeškejte nové a výhodné akce</div>
+            <div id="nlText2" class="relative">Zadejte svůj e-mail a obratem vám zašleme PDF s inspirací zdarma.</div>
+            <form action="newsletter.php" class="relative logInForm smallPadding">
+                <img src="~/img/grey-email.png" alt="">
+                <input placeholder="Zadejte svůj email..." type="email" required>
+                <button>přihlásit</button>
+            </form>
+        </div>
+        <div class="aboutUsFlexContactUs">
+            <div class="aboutUs smallPadding">
+                <div class="aboutUsleft">
+                    <p id="aboutUs" class="light">O NÁS</p>
+                    <p class="light longtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam quis quam. Pellentesque arcu. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Praesent vitae arcu tempor neque lacinia pretium. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Pellentesque arcu. Vestibulum fer-</p>
+                    <a asp-action="Index" asp-controller="Home"><img src="~/img/logo_white.png" alt="white-logo"></a>
+                </div>
+                <div class="aboutUsMid">
+                    <p class="light" id="offer">NAŠE NABÍDKA</p>
+                    <div class="boysVsGirls">
+                        <div>
+                            <h4 class="bold">Dívčí</h4>
+                            <ul>
+                                <li><a href="">Tenisky</a></li>
+                                <li><a href="">Holinky</a></li>
+                                <li><a href="">Sandály</a></li>
+                                <li><a href="">Baleríny</a></li>
+                                <li><a href="">Polobotky</a></li>
+
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="bold">Chlapecké</h4>
+                            <ul>
+                                <li><a href="">Tenisky</a></li>
+                                <li><a href="">Holinky</a></li>
+                                <li><a href="">Sandály</a></li>
+                                <li><a href="">Baleríny</a></li>
+                                <li><a href="">Polobotky</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactUs smallPadding">
+                <p class="light">KONTAKTUJE NÁS</p>
+                <address>
+                    <a id="divFirst" href="mailto:info@nejlepsiboty.cz"><img src="~/img/6.png" alt="">info@nejlepsiboty.cz</a>
+                    <a href="tel:+420777666555"><img src="~/img/8.png" alt="">+420 777 666 555</a>
+                    <div class="contactUsIcons">
+                        <a href=""><img src="~/img/facebook.png" alt=""></a>
+                        <a href=""><img src="~/img/Group153.png" alt=""></a>
+                        <a href=""><img src="~/img/twitter.png" alt=""></a>
+                    </div>
+                </address>
+                <p><a href="https://maps.app.goo.gl/V19wug98jdoUjvMt9" target="_blank" id="ScrollContacts">Litvínovská 600, Praha 9,198 00</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

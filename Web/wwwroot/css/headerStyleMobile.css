@@ -1,0 +1,100 @@
+header .blueStripe,.logoStripe, nav{display: flex}
+
+#logInText,#areaCode,.blueStripePhoneNumber img{display: none}
+
+.blueStripePhoneNumber a:hover{color: black}
+.blueStripeUserLogo a:hover{color: black}
+
+
+.blueStripePhoneNumber{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.categories{display: flex;flex-direction: column}
+.blueStripe{
+    background-color: #314069;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    display: flex;
+}
+.blueStripe div,.logoStripe div{
+    flex: 1;
+    flex-basis: initial;
+}
+.blueStripeUserLogo,.logoStripeIcons{
+    text-align: right;
+}
+.blueStripeUserLogo{display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 5px;
+}
+
+.logoStripeIcons img{
+    padding-top: 5px;
+}
+.logoStripe{
+    margin-top: 23px;
+    margin-bottom: 16px;
+}
+#img1,#img2{
+    padding-right: 14px;
+}
+
+nav {
+    color: #b4bed5;
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    box-sizing:border-box;
+    margin-bottom: 22px;
+    padding: 0 10px;
+}
+
+nav div{
+    text-align: center;
+    padding:22px 34px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    line-height: 23px;
+
+    box-shadow:
+            1px 0 0 0 #b4bed5,
+            0 1px 0 0 #b4bed5,
+            1px 1px 0 0 #b4bed5 inset;
+}
+#navContacs{display: none}
+.categories a{
+    height: 200px;
+    font-size: 24px;
+    display: initial;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#section1{
+    color: #304068;
+    background: url(pozadi_kluk.png) no-repeat center center;
+
+}
+#section2{
+    color: #c7232f;
+    background: url(pozadi_holka.png) no-repeat center center;
+    margin-top: 9px;
+}
+#section3{
+    color: #304068;
+    background: url(pozadi_boty.png) no-repeat center center;
+    margin-top: 9px;
+}
+#section1,#section2,#section3{
+    background-size: contain;
+    margin:0 10px;
+}
+
+.logoStripeIcons form input{display: none}
+.logoStripeIcons{display: flex;align-items: center;justify-content: end}

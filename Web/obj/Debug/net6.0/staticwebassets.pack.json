@@ -1,0 +1,769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\demandStyle.css",
+      "PackagePath": "staticwebassets\\css\\demandStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\demandStyleMobile.css",
+      "PackagePath": "staticwebassets\\css\\demandStyleMobile.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\detailStyle.css",
+      "PackagePath": "staticwebassets\\css\\detailStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\detailStyleMobile.css",
+      "PackagePath": "staticwebassets\\css\\detailStyleMobile.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\footerStyleDesktop.css",
+      "PackagePath": "staticwebassets\\css\\footerStyleDesktop.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\footerStyleMobile.css",
+      "PackagePath": "staticwebassets\\css\\footerStyleMobile.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\forAll.css",
+      "PackagePath": "staticwebassets\\css\\forAll.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\headerStyleDesktop.css",
+      "PackagePath": "staticwebassets\\css\\headerStyleDesktop.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\headerStyleMobile.css",
+      "PackagePath": "staticwebassets\\css\\headerStyleMobile.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\mainStyleDesktop.css",
+      "PackagePath": "staticwebassets\\css\\mainStyleDesktop.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\mainStyleMobile.css",
+      "PackagePath": "staticwebassets\\css\\mainStyleMobile.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\pozadi_boty.png",
+      "PackagePath": "staticwebassets\\css\\pozadi_boty.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\pozadi_holka.png",
+      "PackagePath": "staticwebassets\\css\\pozadi_holka.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\pozadi_kluk.png",
+      "PackagePath": "staticwebassets\\css\\pozadi_kluk.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product16\\7285db1d-aab9-485a-ae41-3e18076c76e3.jpg",
+      "PackagePath": "staticwebassets\\images\\Product16\\7285db1d-aab9-485a-ae41-3e18076c76e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product16\\a439e69a-728b-4731-82e6-64c9e207f5cb.jpg",
+      "PackagePath": "staticwebassets\\images\\Product16\\a439e69a-728b-4731-82e6-64c9e207f5cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product16\\b147c4a5-78a2-4437-bd54-09cbd16608b0.jpg",
+      "PackagePath": "staticwebassets\\images\\Product16\\b147c4a5-78a2-4437-bd54-09cbd16608b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product17\\6a0cffaf-cb2f-4283-8aaf-ea75b16f7ae9.jpg",
+      "PackagePath": "staticwebassets\\images\\Product17\\6a0cffaf-cb2f-4283-8aaf-ea75b16f7ae9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product17\\ab360bec-38f7-4d1a-8a83-ed257b94ddea.jpg",
+      "PackagePath": "staticwebassets\\images\\Product17\\ab360bec-38f7-4d1a-8a83-ed257b94ddea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product17\\cdfb6fe2-842b-417b-9f90-42049157bc0c.jpg",
+      "PackagePath": "staticwebassets\\images\\Product17\\cdfb6fe2-842b-417b-9f90-42049157bc0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product18\\552c2881-0f43-4046-9e67-bb935089e5c0.jpg",
+      "PackagePath": "staticwebassets\\images\\Product18\\552c2881-0f43-4046-9e67-bb935089e5c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product18\\c9ab0a51-bf7c-43d8-b849-e1f9134d1f4e.jpg",
+      "PackagePath": "staticwebassets\\images\\Product18\\c9ab0a51-bf7c-43d8-b849-e1f9134d1f4e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product18\\e4453cd8-0338-49d7-84a8-e48f7304b706.jpg",
+      "PackagePath": "staticwebassets\\images\\Product18\\e4453cd8-0338-49d7-84a8-e48f7304b706.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product19\\10462283-f5bd-4295-8a9e-ef494b98234f.jpg",
+      "PackagePath": "staticwebassets\\images\\Product19\\10462283-f5bd-4295-8a9e-ef494b98234f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product19\\37c757af-af83-4c00-95fc-7d9b525a842f.jpg",
+      "PackagePath": "staticwebassets\\images\\Product19\\37c757af-af83-4c00-95fc-7d9b525a842f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product19\\7914ec3d-8141-4fd7-96d8-fe23d23305c6.jpg",
+      "PackagePath": "staticwebassets\\images\\Product19\\7914ec3d-8141-4fd7-96d8-fe23d23305c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product19\\81ac11c7-ab5a-42ae-8b6e-71741f09fec0.jpg",
+      "PackagePath": "staticwebassets\\images\\Product19\\81ac11c7-ab5a-42ae-8b6e-71741f09fec0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product20\\2a942614-f64e-42ec-8aa2-9ed4ec9c60ff.jpg",
+      "PackagePath": "staticwebassets\\images\\Product20\\2a942614-f64e-42ec-8aa2-9ed4ec9c60ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product20\\35489728-483e-4517-8e18-883a8da9b2f5.jpg",
+      "PackagePath": "staticwebassets\\images\\Product20\\35489728-483e-4517-8e18-883a8da9b2f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product20\\bfcf3fbf-5ab3-4541-958b-896a5bbd28ab.jpg",
+      "PackagePath": "staticwebassets\\images\\Product20\\bfcf3fbf-5ab3-4541-958b-896a5bbd28ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product20\\f7750555-d409-4e5c-b682-4f01d55b4d79.jpg",
+      "PackagePath": "staticwebassets\\images\\Product20\\f7750555-d409-4e5c-b682-4f01d55b4d79.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product21\\6a8a8fcc-4387-4a81-bf00-b87eddbad750.jpg",
+      "PackagePath": "staticwebassets\\images\\Product21\\6a8a8fcc-4387-4a81-bf00-b87eddbad750.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product21\\89e3e8e4-d493-48d2-b008-701040d03926.jpg",
+      "PackagePath": "staticwebassets\\images\\Product21\\89e3e8e4-d493-48d2-b008-701040d03926.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product21\\e37d6f2d-58c0-4360-b091-aabe754fb45d.jpg",
+      "PackagePath": "staticwebassets\\images\\Product21\\e37d6f2d-58c0-4360-b091-aabe754fb45d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product22\\72b973c8-3b49-404b-856e-04a97c65e71d.jpg",
+      "PackagePath": "staticwebassets\\images\\Product22\\72b973c8-3b49-404b-856e-04a97c65e71d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product22\\9f300f19-5b52-4330-86a0-7ee57b8e93ad.jpg",
+      "PackagePath": "staticwebassets\\images\\Product22\\9f300f19-5b52-4330-86a0-7ee57b8e93ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product22\\a5c2173b-5fa3-40d2-8441-884d0bfc14ab.jpg",
+      "PackagePath": "staticwebassets\\images\\Product22\\a5c2173b-5fa3-40d2-8441-884d0bfc14ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product22\\d4a129ce-2ed2-4286-824f-63fa4c3ff474.jpg",
+      "PackagePath": "staticwebassets\\images\\Product22\\d4a129ce-2ed2-4286-824f-63fa4c3ff474.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product23\\0afe1420-02ff-496e-a972-6ec90e4f8134.jpg",
+      "PackagePath": "staticwebassets\\images\\Product23\\0afe1420-02ff-496e-a972-6ec90e4f8134.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product23\\a96af581-9b29-461e-93e2-823292d15ed3.jpg",
+      "PackagePath": "staticwebassets\\images\\Product23\\a96af581-9b29-461e-93e2-823292d15ed3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\images\\Product23\\abe10fd6-74a1-4c60-bca3-d1760b4ad4ce.jpg",
+      "PackagePath": "staticwebassets\\images\\Product23\\abe10fd6-74a1-4c60-bca3-d1760b4ad4ce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\10e0f753-ec99-11eb-9461-02420a000b04.png",
+      "PackagePath": "staticwebassets\\img2\\10e0f753-ec99-11eb-9461-02420a000b04.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\15146773-eb93-11eb-9461-02420a000b04.png",
+      "PackagePath": "staticwebassets\\img2\\15146773-eb93-11eb-9461-02420a000b04.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\20c2c89d-ae92-11ec-b9bd-02420a000a27.png",
+      "PackagePath": "staticwebassets\\img2\\20c2c89d-ae92-11ec-b9bd-02420a000a27.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\2930e14d-da4b-11eb-8d3f-02420a000b23.png",
+      "PackagePath": "staticwebassets\\img2\\2930e14d-da4b-11eb-8d3f-02420a000b23.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\5a358f8ad37329.3086527515134595948661.png",
+      "PackagePath": "staticwebassets\\img2\\5a358f8ad37329.3086527515134595948661.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\79ec4063-e3fd-11eb-8d3f-02420a000b23.png",
+      "PackagePath": "staticwebassets\\img2\\79ec4063-e3fd-11eb-8d3f-02420a000b23.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\7c895c56-e3fd-11eb-8d3f-02420a000b23.png",
+      "PackagePath": "staticwebassets\\img2\\7c895c56-e3fd-11eb-8d3f-02420a000b23.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\8291fafa-e3fd-11eb-8d3f-02420a000b23.png",
+      "PackagePath": "staticwebassets\\img2\\8291fafa-e3fd-11eb-8d3f-02420a000b23.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\a09dbd19-0357-11ec-a9ba-02420a000a40.png",
+      "PackagePath": "staticwebassets\\img2\\a09dbd19-0357-11ec-a9ba-02420a000a40.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\a58593ea-26cb-11ed-842e-02420a000a33.png",
+      "PackagePath": "staticwebassets\\img2\\a58593ea-26cb-11ed-842e-02420a000a33.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\bota1.png",
+      "PackagePath": "staticwebassets\\img2\\bota1.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\bota2.png",
+      "PackagePath": "staticwebassets\\img2\\bota2.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\bota3.png",
+      "PackagePath": "staticwebassets\\img2\\bota3.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\bota4.png",
+      "PackagePath": "staticwebassets\\img2\\bota4.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\bota5.png",
+      "PackagePath": "staticwebassets\\img2\\bota5.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\button_back.png",
+      "PackagePath": "staticwebassets\\img2\\button_back.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\button_sub.png",
+      "PackagePath": "staticwebassets\\img2\\button_sub.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\cursor.png",
+      "PackagePath": "staticwebassets\\img2\\cursor.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\demand_photo.jpg",
+      "PackagePath": "staticwebassets\\img2\\demand_photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\kosik_white.png",
+      "PackagePath": "staticwebassets\\img2\\kosik_white.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\logo.webp",
+      "PackagePath": "staticwebassets\\img2\\logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoe3.png",
+      "PackagePath": "staticwebassets\\img2\\shoe3.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoe4.png",
+      "PackagePath": "staticwebassets\\img2\\shoe4.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoe5.png",
+      "PackagePath": "staticwebassets\\img2\\shoe5.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoe8.png",
+      "PackagePath": "staticwebassets\\img2\\shoe8.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoe9.png",
+      "PackagePath": "staticwebassets\\img2\\shoe9.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoes1.png",
+      "PackagePath": "staticwebassets\\img2\\shoes1.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoes2.png",
+      "PackagePath": "staticwebassets\\img2\\shoes2.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoes6.png",
+      "PackagePath": "staticwebassets\\img2\\shoes6.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img2\\shoes7.png",
+      "PackagePath": "staticwebassets\\img2\\shoes7.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\01.png",
+      "PackagePath": "staticwebassets\\img\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\02.png",
+      "PackagePath": "staticwebassets\\img\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\03-01.png",
+      "PackagePath": "staticwebassets\\img\\03-01.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\6.png",
+      "PackagePath": "staticwebassets\\img\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\6.svg",
+      "PackagePath": "staticwebassets\\img\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\8.png",
+      "PackagePath": "staticwebassets\\img\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\8.svg",
+      "PackagePath": "staticwebassets\\img\\8.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group153.png",
+      "PackagePath": "staticwebassets\\img\\Group153.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group153.svg",
+      "PackagePath": "staticwebassets\\img\\Group153.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group169.png",
+      "PackagePath": "staticwebassets\\img\\Group169.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group169.svg",
+      "PackagePath": "staticwebassets\\img\\Group169.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group171.png",
+      "PackagePath": "staticwebassets\\img\\Group171.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group171.svg",
+      "PackagePath": "staticwebassets\\img\\Group171.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group195.png",
+      "PackagePath": "staticwebassets\\img\\Group195.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group195.svg",
+      "PackagePath": "staticwebassets\\img\\Group195.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group196.png",
+      "PackagePath": "staticwebassets\\img\\Group196.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group196.svg",
+      "PackagePath": "staticwebassets\\img\\Group196.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group293.png",
+      "PackagePath": "staticwebassets\\img\\Group293.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group293.svg",
+      "PackagePath": "staticwebassets\\img\\Group293.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group295.png",
+      "PackagePath": "staticwebassets\\img\\Group295.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group295.svg",
+      "PackagePath": "staticwebassets\\img\\Group295.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group4.png",
+      "PackagePath": "staticwebassets\\img\\Group4.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\Group4.svg",
+      "PackagePath": "staticwebassets\\img\\Group4.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\cart.png",
+      "PackagePath": "staticwebassets\\img\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\donald-trump.svg",
+      "PackagePath": "staticwebassets\\img\\donald-trump.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\facebook.svg",
+      "PackagePath": "staticwebassets\\img\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\grey-email.png",
+      "PackagePath": "staticwebassets\\img\\grey-email.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\heart.png",
+      "PackagePath": "staticwebassets\\img\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\heart.svg",
+      "PackagePath": "staticwebassets\\img\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\key.png",
+      "PackagePath": "staticwebassets\\img\\key.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\key.svg",
+      "PackagePath": "staticwebassets\\img\\key.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\logo_white.png",
+      "PackagePath": "staticwebassets\\img\\logo_white.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\loupe.png",
+      "PackagePath": "staticwebassets\\img\\loupe.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\loupe.svg",
+      "PackagePath": "staticwebassets\\img\\loupe.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\newsletterBG.jpg",
+      "PackagePath": "staticwebassets\\img\\newsletterBG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\pozadi_pozadi.png",
+      "PackagePath": "staticwebassets\\img\\pozadi_pozadi.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\profile-user.png",
+      "PackagePath": "staticwebassets\\img\\profile-user.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\profile-user.svg",
+      "PackagePath": "staticwebassets\\img\\profile-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\img\\twitter.svg",
+      "PackagePath": "staticwebassets\\img\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\js\\index.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\index.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rakus\\Desktop\\ShoeEshop- MVC\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

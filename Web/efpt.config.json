@@ -1,0 +1,60 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "MyDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Web",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "Administrators",
+         "ObjectType": 0
+      },
+      {
+         "Name": "CartItems",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Customers",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Orders",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Photos",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Products",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DB",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

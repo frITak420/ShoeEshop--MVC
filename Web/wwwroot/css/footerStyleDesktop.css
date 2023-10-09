@@ -1,0 +1,22 @@
+@media only screen and (min-width: 989px){
+    .aboutUsFlexContactUs{display: flex;width: 100%;}
+    .contactUs{height: unset;width: 100%;flex: 30%}
+    .aboutUs{display: flex;flex: 70%}
+    .aboutUsleft{}
+    .longtext{margin: 0;width: 277px;}
+    .aboutUsleft,.aboutUsMid{flex: 1}
+        #offer,#aboutUs{padding: 0;margin-top: 45px}
+        #aboutUs{margin-bottom: 30px}
+    .aboutUsleft{padding:  0 0 0 60px}
+    .bold{margin-top: 0}
+  footer{max-width: 1920px}
+    .newsletter::before{
+        background-position: initial;
+    }
+    .contactUs a:hover{color: black}
+    .contactUs a:hover img {transform: rotate(360deg);}
+    .contactUs img {
+        transition: transform .7s ease-in-out;
+    }
+
+}

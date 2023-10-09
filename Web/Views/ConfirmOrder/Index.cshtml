@@ -1,0 +1,28 @@
+﻿<head>
+    <style>
+        h1 {
+            color: green;
+            padding: 50px;
+            font-weight:bold;
+            font-size:250%;
+        }
+        h4{color:dimgrey}
+        body{text-align:center;}
+    </style>
+</head>
+
+<body onload="redirect();">
+    <h1>Objednávka úspěšně dokončena!</h1>
+    <h4>...hned budete přesměrováni zpět na domovskou stránku..</h4>
+    <script defer type="text/javascript">
+        function redirect(){
+            var interval = setInterval(myURL, 2000);
+        }
+
+        function myURL() {
+            document.location.href = 'Home/Index';
+            clearInterval(interval);
+        }
+      
+    </script>
+</body>

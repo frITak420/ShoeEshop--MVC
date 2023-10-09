@@ -1,0 +1,64 @@
+
+
+.smallPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Libre Franklin" ,sans-serif;
+    width: 100%;
+    margin: unset;
+}
+main{width: 100%}
+button:not(.carousel-control, .carousel-control-next ,.h-75, .m-auto) {
+    background: #c7232f;
+    border: none;
+    color: white;
+    font-family: "Libre Franklin",sans-serif;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.bold{
+    font-weight: bold;
+}
+p{
+    margin: unset;
+}
+.light{
+    font-weight: lighter;
+}
+.lineLogoLine{
+    display: flex;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    background: #b4bed5;
+    flex: 4;
+
+}
+.midddd{
+    flex: 1;
+    text-align: center;
+}
+
+@media only screen and (min-width: 989px){
+    .line{flex: 8}
+    button:hover{
+        cursor: pointer;
+        transform: scale(105%);
+    }
+
+    .circleInfo a:hover{color: #c7232f;text-decoration: underline;}
+    .circleInfo a:hover img{background: #c7232f}
+    .circleInfo a{cursor: pointer}
+}
+
+a{text-decoration: none;color: unset}
+@media only screen and (max-width: 849px) {
+    #idkidc{margin-top: 20px}
+}
+

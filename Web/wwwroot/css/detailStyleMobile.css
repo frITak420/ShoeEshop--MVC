@@ -1,0 +1,57 @@
+@media only screen and (max-width:1000px){
+    .wholeProduct{flex-direction: column;margin: 0 10px}
+    .lower{justify-content: unset;gap: 15px}
+    .lower div{height: 100px}
+    .nameAndLogo img{display: none}
+    .nameAndLogo h1{font-size: 30px;margin-bottom: 18px}
+    #popisBot{display: none}
+    .colorAndSize{flex-direction: column}
+    h1{margin: 10px 0}
+    #longTextButton{display: none}
+    #shortTextButton{display: table-row}
+    .priceAndAddToCart{grid-template-columns: 50%[col-start] 45%[col-start]}
+    .aboutProduct h3{font-size: 24px;text-align: center}
+    .wholeInfo{flex-direction: column;margin: 0 10px;align-items: unset}
+    .productTable{display: flex;justify-content: center;}
+    .wholeInfo + .lineLogoLine{display: none}
+    .rndmTexts{flex-direction: column;text-align: center;margin-top: 65px}
+    .offeringDetail{display: flex;flex-direction: column}
+    .offeringDetail + .lineLogoLine{margin:60px 0 14px}
+
+    .circleInfo{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 10px;
+    }
+    .circleInfo a{justify-content: unset;gap: 20px}
+
+
+}
+@media only screen and (max-width: 550px) {
+    .upper{max-height: 335px}
+
+}
+@media only screen and (min-width: 551px) and (max-width: 1000px){
+    main{max-width: 565px}
+    .lower div {height: 175px}
+    #shortTextButton{display:  none}
+    #longTextButton{display: flex}
+    .priceAndAddToCart{grid-template-columns: 50%[col-start] 40%[col-start]}
+    .lower{gap: 0;justify-content: space-between}
+
+}
+@media only screen and (min-width: 551px) and (max-width: 1199px){
+    .alltomid{
+        display: flex;
+        justify-content: center;
+        margin: 0 10px;
+    }
+}
+@media only screen and (min-width: 1200px){
+        .alltomid{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+}

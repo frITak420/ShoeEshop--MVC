@@ -1,0 +1,119 @@
+.rndmText1{
+    font-size: 35px;
+    color:#c7232f;
+    text-align: center;
+    padding-top: 16px;
+}
+.rndmText2{
+    font-size: 35px;
+    color:#304068;
+    text-align: center;
+    font-weight: bold;
+}
+.offering{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+#picture5,#picture6,#picture7,#picture8{display: none}
+
+.product{
+    height: 382px;
+    width: 275px;
+    border: 1px solid #b4bed5;
+    display: flex;
+    flex-direction: column;
+}
+.product:hover{
+    border-color:#c7232f;
+}
+.product>p{
+    color: #304068;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 13px;
+    margin: unset;
+    flex: 16%;
+
+}
+.product:hover >p{
+  font-weight: bold;
+}
+.product img{
+    flex:74%;
+}
+.product img{width: 100%}
+
+.inline{
+    display:  flex;
+    flex:10%;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.prices{
+
+}
+.prices p{
+    display: inline;
+}
+
+.inline .cartPhoto{
+    flex: 1;
+    text-align: right;
+    opacity: 0;
+    transition:visibility 1s, opacity 1s;
+    visibility:hidden;
+}
+.product:hover .cartPhoto{
+    visibility:visible;
+    opacity:1
+}
+
+.inline div img{
+    max-height: 34px;
+    max-width: 32px;
+    padding-right: 17px;
+
+}
+.price1{
+    font-weight: bold;
+    color: #c7232f;
+    padding-left: 13px;
+    padding-right: 16px;
+    font-size: 20px;
+}
+.price2 {
+    text-decoration: line-through;
+    color: #b5bed5;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#btnOffering{padding: 17px 30px 20px;
+    margin: 25px 0 35px;
+}
+.button{text-align: center;
+width: 100%}
+.circleInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 10px;
+}
+.circleInfo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #304068;
+    gap: 20px;
+}
+
+.circleInfo img{
+    background: #304068;
+    padding: 14px;
+    clip-path: circle();
+}
+
+
+

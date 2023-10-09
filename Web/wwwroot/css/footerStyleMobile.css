@@ -1,0 +1,115 @@
+.relative{position: relative}
+
+.newsletter{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter::before{
+    content: "";
+    background-size: cover;
+    background: url("img/bg.jpg") no-repeat -512px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.88;
+}
+#nlText1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #202020;
+    margin: unset;
+    padding-top: 46px;
+    text-align: center;
+}
+#nlText2{
+    font-size: 20px;
+    color: #606060FF;
+    line-height: 1.2;
+    text-align: center;
+    margin: 10px 0;
+}
+.logInForm{
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+}
+.logInForm button{
+    padding: 16px 21px;
+}
+
+.logInForm input{
+    background: white;
+    border: 1px solid #c9c9ca;
+    border-right: none;
+    border-left: none;
+    font-size: 16px;
+    font-family: "Libre Franklin",sans-serif;
+    padding: 15px 0;
+}
+
+.logInForm img{
+    padding: 16px 9px;
+    border: 1px solid #c9c9ca;
+    border-right: none;
+    background: white;
+
+}
+.aboutUs{
+    background: #c7232e;
+    color: white;
+}
+.boysVsGirls{
+    display: flex;
+    gap: 108px;
+    margin-top: 30px;
+    padding-bottom: 45px;
+}
+#aboutUs{
+    padding-top: 45px;
+    margin-bottom: 40px;
+}
+.longtext{
+    font-size: 14px;
+    line-height: 1.286;
+    font-weight: lighter;
+    text-align: justify;
+    margin-right: 73px;
+}
+.aboutUs img{margin-top: 43px;margin-bottom: 57px}
+.boysVsGirls h4{
+    margin-bottom:20px;
+}
+.boysVsGirls ul{
+    padding-left: 20px;
+    line-height: 25px;
+    list-style: circle;
+}
+
+.contactUs{
+    background: #304068;
+    height: 305px;
+    color: white;
+    padding-top: 50px;
+}
+.contactUs address{display: flex;
+flex-direction: column;
+    font-style: normal;
+gap: 14px;
+margin-bottom: 42px}
+.contactUs a{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.contactUsIcons{display: flex;gap: 10px}
+#divFirst{margin-top: 39px}
+
+li a:hover{text-decoration: underline}

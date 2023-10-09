@@ -1,0 +1,18 @@
+@media only screen and (min-width: 340px) and (max-width:1160px) {
+    main{display: block}
+    .kidPhoto{min-height: 400px;background-position: center;margin-bottom: 10px;max-width: 100%}
+
+
+}
+
+@media screen and (max-width:  721px) {
+    .kidPhoto{display: none}
+    .paymentMethod{flex-wrap: wrap}
+
+}
+
+@media screen and (max-width: 530px) {
+    .nameInputs{display:unset}
+    select{width: 105%}
+
+}

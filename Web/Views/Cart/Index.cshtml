@@ -1,0 +1,240 @@
+﻿@model Web.Models.Customer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTY - Poptávka</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="~/css/footerStyleMobile.css">
+    <link rel="stylesheet" href="~/css/footerStyleDesktop.css">
+    <link rel="stylesheet" href="~/css/forAll.css">
+    <link rel="stylesheet" href="~/css/headerStyleMobile.css">
+    <link rel="stylesheet" href="~/css/headerStyleDesktop.css">
+    <link rel="stylesheet" href="~/css/demandStyle.css">
+    <link rel="stylesheet" href="~/css/demandStyleMobile.css">
+
+    <style> 
+        .marg30{margin-bottom:30px}
+        .buttonsForm button {padding:10px;}
+
+        #buttonekPlus{background:blue;padding:10px;margin-right:5px;color:white}
+        #buttonekMinus{background:grey;padding:11px;margin-left:5px;color:white}
+       
+        input[type=number]{padding:10px;width:20%;font-weight:bold}
+        .qtity{text-align:center}
+        #inputPrice{border:none;font-size:medium}
+    </style>
+</head>
+<body>
+        <div class="blueStripeFull">
+            <div class="blueStripe smallPadding">
+                <div class="blueStripePhoneNumber"><img src="~/img/8.png" alt=""><a href="tel:+420777666555"><p id="areaCode">+420&nbsp</p>777 666 555</a> | <a href="mailto:info@nejlepsiboty.cz">info@nejlepsiboty.cz</a></div>
+                @if (ViewBag.IsAdmin == true)
+                {
+                    <div class="blueStripeUserLogo"><p id="logInText"><a asp-action="LogOut" asp-controller="Login">Odhlásit se</a></p><img src="~/img/profile-user.svg" alt="profile-user-icon"></div>
+                }
+                else
+                {
+                    <div class="blueStripeUserLogo"><p id="logInText"><a asp-action="Index" asp-controller="Login">Přihlásit se</a></p><img src="~/img/profile-user.svg" alt="profile-user-icon"></div>
+                }
+            </div>
+        </div>
+        <div class="tomidheader">
+            <header>
+                @if (ViewBag.IsAdmin == true)
+                {
+                    <div class="admin">
+                    <div><a asp-controller="Orders" asp-action="Index">SPRÁVA OBJEDNÁVEK</a></div>
+                        <div><a asp-controller="Products" asp-action="Index">SPRÁVA PRODUKTŮ</a></div>
+                    </div>
+                }
+
+                <div class="logoStripe smallPadding">
+                    <div><a asp-action="Index" asp-controller="Home"><img src="~/img/Group4.png" alt="boty-logo"></a></div>
+                    <div class="logoStripeIcons">
+                        <form action="search.php">
+                            <img id="img1" src="~/img/loupe.png" alt="loupe-logo"><input placeholder="Vyhledat zboží...">
+                        </form>
+                        <a asp-action="Index" asp-controller="Cart"><img id="img2" src="~/img/cart.png" alt="cart-logo"></a><a href=""><img src="~/img/heart.png" alt="heart-logo" id="imgSrdce"></a>
+                    </div>
+                </div>
+                <nav>
+                    <div>Chlapecké <img src="~/img/Group169.png" alt="boy-icon"></div>
+                    <div>Dívčí <img src="~/img/Group171.png" alt="girl-icon"></div>
+                    <div>Doplňky</div>
+                    <div>Ostatní</div>
+                    <div id="navContacs">Kontakty</div>
+                </nav>
+                <div class="noName smallPadding"></div>
+            </header>
+        </div>
+
+    <div class="alltomid">
+        <main>
+            @if (ViewBag.Empty == true)
+            {
+                <h1 class="marg30">Košík je prázný, tak co tu hledáš</h1>
+            }
+            else
+                {  
+            <div class="demandTable">
+                 
+                <table>
+                    <caption>KOŠÍK</caption>
+                    <tr>
+                        <th colspan="2">Produkt</th>
+                        <th>Cena za 1ks</th>
+                        <th>Počet</th>
+                        <th>Celková cena</th>
+                        <th></th>
+
+                    </tr>
+                        @foreach (CartItem c in ViewBag.CartItems)
+                        {
+                            <tr>
+                                @foreach (Photo p in ViewBag.Photos)
+                                {
+                                    if (p.ProductId == c.Product.Id && p.Priority == 1)
+                                    {
+                                        <td><img src="@p.ImgPath.Remove(0,7)"/></td>
+                                    }
+                                }
+                                <td><a asp-action="Index" asp-controller="Detail" asp-route-id="@c.Product.Id">@c.Product.ProductName</a>
+                                    <br><br>Barva : @c.Color <br><br>
+                                            Velikost: @c.Size
+                                </td>
+                                <td>@c.Product.Price Kč</td>
+                                <td class="qtity"><a asp-action="QtityChange" asp-route-value="0" asp-route-id="@c.Product.Id" id="buttonekPlus">+</a>@c.Quantity<a asp-action="QtityChange" asp-route-id="@c.Product.Id" id="buttonekMinus" asp-route-value="1">-</a></td>
+                                <td> @c.TotalPrice Kč </td>
+                                <td><a class="btn btn-danger" asp-action="RemoveFromCart" asp-controller="Cart" asp-route-id="@c.Product.Id">Odebrat z košíku</a></td>
+                            </tr>
+                        }
+                    <tr>
+                        <th colspan="4">Mezisoučet: @ViewBag.Total Kč </th>
+                    </tr>
+
+                </table>
+                
+
+
+            </div>
+            <div class="infoForm">
+                <h1>Poptávkový formulář</h1>
+                <p>Vyplňte formulář níže a my se Vám ozveme,jakmile to půjde.</p>
+                <form asp-action="ConfirmOrder" asp-controller="Cart">
+                        <div class="nameInputs">
+                        <div>
+                            <label for="firstName">Jméno</label><br>
+                            <input id="firstName" asp-for="FirstName" required type="text" placeholder="Zadejte své jméno...">
+                        </div>
+                        <div>
+                            <label for="lastName">Příjmení</label><br>
+                            <input id="lastName" required asp-for="LastName" type="text" placeholder="Zadejte své přijmení...">
+                        </div>
+                    </div>
+                    <label for="email">E-mail</label><br>
+                    <input class="invalid" type="email" asp-for="Email" id="email" placeholder="Zadejte svůj email...">
+                    <span class="err">zadaný e-mail nemá správný formát</span>
+                    <br>
+                    <label for="telefon">Telefon</label><br>
+                    <input type="tel" required id="telefon" asp-for="Mobile" placeholder="Zadejte svůj telefon..."><br>
+                        <label for="city">Město</label><br>
+                        <input type="text" required id="city" asp-for="City" placeholder="Zadejte město..."><br>
+                    <label for="telefon">Ulice</label><br>
+                    <input type="text" required id="ulice" asp-for="Street" placeholder="Zadejte ulici..."><br>
+                        <label for="zip">PSČ</label><br>
+                        <input type="text" required id="zip" pattern="[0-9]{5}" asp-for="Zip" placeholder="Zadejte PSČ..."><br>
+                    <label>
+                        Země
+                    </label><br>
+                    <div class="select_box">
+                        <select required asp-for="Country">
+                            <option id="firstSelect">Vyberte zemi...</option>
+                            <option value="ČR">Česká republika</option>
+                                <option value="SR">Slovenská republika</option>
+                        </select>
+                    </div>
+                    <br>
+                    <label>Způsob platby</label><br><br>
+                    <div class="paymentMethod">
+                        <label for="cash">
+                            <input type="radio" name="method" id="cash" checked>Hotově
+                        </label>
+                        <label for="transfer">
+                            <input name="method" type="radio" id="transfer">Převodem
+                        </label>
+                        <label for="byCard">
+                            <input name="method" type="radio" id="byCard">Kartou
+                        </label>
+                    </div>
+                    <input hidden readonly value="@ViewBag.Total" name="total">
+                    <div class="buttonsForm">
+                        <button type="button" asp-action="Index" asp-controller="Home">Zpět na hlavní stránku</button>
+                        <button type="submit">Objednat</button>
+                    </div>
+                </form>
+            </div>
+            }
+        </main>
+    </div>
+        <footer>
+             <div class="aboutUsFlexContactUs">
+                <div class="aboutUs smallPadding">
+                    <div class="aboutUsleft">
+                        <p id="aboutUs" class="light">O NÁS</p>
+                        <p class="light longtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam quis quam. Pellentesque arcu. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Praesent vitae arcu tempor neque lacinia pretium. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Pellentesque arcu. Vestibulum fer-</p>
+                        <a asp-action="Index" asp-controller="Home"><img src="~/img/logo_white.png" alt="white-logo"></a>
+                    </div>
+                    <div class="aboutUsMid">
+                        <p class="light" id="offer">NAŠE NABÍDKA</p>
+                        <div class="boysVsGirls">
+                            <div>
+                                <h4 class="bold">Dívčí</h4>
+                                <ul>
+                                    <li><a href="">Tenisky</a></li>
+                                    <li><a href="">Holinky</a></li>
+                                    <li><a href="">Sandály</a></li>
+                                    <li><a href="">Baleríny</a></li>
+                                    <li><a href="">Polobotky</a></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="bold">Chlapecké</h4>
+                                <ul>
+                                    <li><a href="">Tenisky</a></li>
+                                    <li><a href="">Holinky</a></li>
+                                    <li><a href="">Sandály</a></li>
+                                    <li><a href="">Baleríny</a></li>
+                                    <li><a href="">Polobotky</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactUs smallPadding">
+                    <p class="light">KONTAKTUJE NÁS</p>
+                    <address>
+                        <a id="divFirst" href="mailto:info@nejlepsiboty.cz"><img src="~/img/6.png" alt="">info@nejlepsiboty.cz</a>
+                        <a href="tel:+420777666555"><img src="~/img/8.png" alt="">+420 777 666 555</a>
+                        <div class="contactUsIcons">
+                            <a href=""><img src="~/img/facebook.png" alt=""></a>
+                            <a href=""><img src="~/img/Group%20153.png" alt=""></a>
+                            <a href=""><img src="~/img/twitter.png" alt=""></a>
+                        </div>
+                    </address>
+                    <p><a href="https://maps.app.goo.gl/V19wug98jdoUjvMt9" target="_blank">Litvínovská 600, Praha 9,198 00</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+             
+          
+
+
+        </script>
+</body>
+</html>

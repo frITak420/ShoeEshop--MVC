@@ -1,0 +1,143 @@
+.demandTable img{height: 200px}
+.demandTable table,th,td {border: 1px solid black;border-collapse: collapse}
+.demandTable table{width: 100%}
+.demandTable table td{max-width: 93px}
+.demandTable{margin-bottom: 20px}
+.demandTable caption{background: #304068;color: white;font-size: large;font-weight: bold;padding: 10px 0}
+.demandTable a{color: #304068;font-size: medium;font-weight: bold}
+.demandTable a:hover{color: #c7232f}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.noName{color: red;margin: 20px 0 28px}
+.noName a:hover{color: #304068}
+.noName a:nth-of-type(2){color: #304068;text-decoration: underline}
+
+main h1{font-size: 42px;color: #304068;margin:0}
+main p{font-size: 16px;color: #304068;margin: 23px 0}
+main label{font-size: 16px;color: #304068;margin-bottom: 5px}
+main form input{
+    font-size: 16px;padding: 18px 0;
+    border: 1px solid #c2c2c2;
+    margin:8px  0 20px;
+    width: 100%;
+    }
+main form input::placeholder{padding-left: 8px}
+input::placeholder{color: #cfd2d9}
+.nameInputs{display: flex;gap: 30px;max-width: 100%}
+.nameInputs div{flex: 1;width: 100%}
+
+select{width: 103%;
+    font-size: 16px;padding: 18px 0 18px 10px;
+
+}
+
+.paymentMethod{display: flex;justify-content: space-between}
+
+main input[type="radio"]:after{background-color: white;cursor: pointer}
+
+
+.paymentMethod input[type="radio"]:after{
+    width: 17px;
+    height: 17px;
+    border-radius: 999px;
+    top: -8px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #707070;
+}
+.paymentMethod input[type="radio"]:checked:after{
+    background-color: #304068;
+}
+.paymentMethod label{display: flex;gap: 20px}
+
+.select_box{
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #c2c2c2;
+    position: relative;
+
+}
+.select_box:after{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #304068;
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    content: "";
+    z-index: 98;
+}
+.select_box select{
+    border: 0;
+    position: relative;
+    z-index: 99;
+    background: none;
+}
+
+
+.buttonsForm{display: flex;justify-content: space-between;margin-bottom: 112px}
+#backBtn{
+    background: url("img2/button_back.png") no-repeat center;
+    height: 56px;width: 103px;
+    border: none}
+#subBtn{
+    background: url("img2/button_sub.png") no-repeat center;
+    height: 56px;width: 162px;
+    border: none}
+
+#backBtn:hover{transform: scale(110%)}
+
+span.err {
+    color: red;
+    font-size: 70%;
+
+    display: none;
+}
+
+@media only screen and (min-width: 700px) {
+    #logInText,#areaCode,.blueStripePhoneNumber img{display:initial}
+    nav{
+        grid-template-columns: repeat(5,1fr);
+    }
+    main{
+        max-width: 1200px;
+    }
+
+}
+@media only screen and (max-width: 700px){
+    #kontaktNav{display: none}
+}
+
+@media only screen and (min-width: 340px) and (max-width: 1199px){
+    .alltomid{
+        display: flex;
+        justify-content: center;
+        margin: 0 10px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .alltomid{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

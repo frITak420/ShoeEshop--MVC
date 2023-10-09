@@ -1,0 +1,210 @@
+@media only screen and (min-width: 700px) {
+
+    .admin {
+        display: flex;
+        width: 100%
+    }
+
+        .admin div {
+            flex: 1;
+            text-align: center;
+            border: 2px solid blue;
+            background: red;
+            padding:10px;
+        }
+    
+    #logInText,#areaCode,.blueStripePhoneNumber img{display:initial}
+    nav{
+        grid-template-columns: repeat(5,1fr);
+        cursor: pointer;
+    }
+    #img2:hover{transform: scale(110%)}
+    #imgSrdce:hover{transform: scale(110%)}
+    #navContacs{display: flex}
+    header{width: 100%}
+    .rndmText1{padding-top: 0}
+    .rndmTexts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 8px;
+    }
+
+    .blueStripeFull {
+        background: #314069;
+        display: flex;
+        color: white;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .blueStripe{
+        font-size: 16px;
+        height: 50px;
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+
+    }
+
+    header{max-width: 1200px}
+    .tomidheader{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    nav div:hover{
+        color: red;
+        font-weight: bold;
+        box-shadow:none;
+        border: 1px solid red;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .categories{
+        flex-direction: row;
+        height: 200px;
+        padding: 0;
+        margin-bottom: 40px;
+
+    }
+    #section1,#section2,#section3{
+        flex: 1;
+        height: 100%;
+        font-size: 24px;
+        padding:0;
+        margin: 0;
+        transition: 0.5s all;
+        background-size: 94%;
+    }
+    .showProducts{
+        background: url("img/pozadi_pozadi.png") no-repeat;
+        background-size: cover;
+        height: 450px;
+        margin: 23px 10px 51px;
+    }
+    #btnOffering{margin: 48px 0 27px}
+    .circleInfo{margin: 42px 0 0}
+
+}
+@media only screen and (min-width: 1200px){
+    nav{padding: 0;margin:0}
+
+
+    .blueStripe,.logoStripe,nav{padding: 0}
+
+    .logoStripeIcons input{
+        font-size: 16px;
+        font-family: "Libre Franklin",sans-serif;
+        border: 1px solid #c9c9ca;
+        border-left: none;
+        padding: 11.5px 0;
+    }
+    .logoStripeIcons form img{border: 1px solid #c9c9ca;
+        border-right: none;
+        padding: 5px}
+
+    .logoStripeIcons form{display: flex;align-items: center;margin-right: 30px;}
+
+
+    .logoStripeIcons input::placeholder{
+        color: #b7c0d6;
+    }
+    .logoStripeIcons form input{display: inline-block}
+
+    .categories a:hover{
+    transform: scale(105%);
+    }
+
+    .showProducts{margin: 23px 0 51px}
+
+}
+@media  only screen and (max-width: 1439px) {
+    .slider{display: none}
+}
+@media only screen and (min-width: 1440px){
+    .btnOffer:hover{transform: scale(110%)}
+    .sliderBtns input{cursor: pointer;}
+
+
+        .slider{
+            width: 1200px;
+            height: 450px;
+            background: blue;
+            display: block;
+            margin-bottom: 50px;
+            margin-top: 23px;
+        }
+        .imgBx {
+            height: 450px;
+        }
+        .imgBx img{
+            position: absolute;
+        }
+        .topText{
+            font-size: 24px;
+            font-family: "Libre Franklin";
+            color: rgb(199, 35, 47);
+            text-transform: uppercase;
+            position: relative;
+            width: 350px;
+            padding-left: 600px;
+            padding-top:80px
+        }
+        .radioBtnSlider{
+            position: relative;
+        }
+        .downText{
+            font-size: 52px;
+            font-family: "Libre Franklin";
+            color: rgb(48, 64, 104);
+            font-weight: bold;
+            text-transform: uppercase;
+            width: 500px;
+            position: relative;
+            padding-left: 600px;
+        }
+        .zobrProd{
+            position: relative;
+            margin-left:600px
+        }
+        .sliderBtn[type='radio']:after{
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            top: -6px;
+            left: -14px;
+            position: relative;
+            background-color: white;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+        /border: 2px solid #b4bed5;/
+        }
+
+        .sliderBtn[type='radio']:checked:after{
+            background-color: #304068;
+        }
+        .sliderBtns{
+            margin-top:50px;
+            margin-left: 550px;
+            display: flex;
+            gap: 10px;
+        }
+    .btnOffer {
+        margin: 24px auto 0 600px;
+        width: 225px;
+        height: 50px;
+        background: #c7232f;
+        font-size: 16px;
+        color: rgb(255, 255, 255);}
+    .textCenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

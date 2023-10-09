@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Web.Models.Order>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style> body{margin:10px} 
+    </style>
+</head>
+<h1>Objednávky</h1>
+<a class="btn btn-info" asp-action="Index" asp-controller="Home">Zpět do e-shopu</a>
+<body>
+<table class="table table-bordered table-hover table-striped">
+    <tr>
+        <th>Číslo objednávky</th>
+        <th>Datum vytvoření</th>
+        <th>Zákazník</th>
+        <th>Akce</th>
+    </tr>
+    @foreach(Order o in Model.Where(o=>o.IsCompleted ==false))
+    {
+            
+                string name = o.Customer.FirstName +" "+ o.Customer.LastName;
+                string address = o.Customer.Street + "," + o.Customer.City +","+o.Customer.Zip;
+                string contact = o.Customer.Email +" "+ o.Customer.Mobile;
+         
+
+            <tr>
+                <td><strong>@o.OrderNumber</strong></td>
+            <td>@o.Created</td>
+            <td>
+                @name<br>
+                @address<br>
+                @contact<br>
+            </td>
+            <td>
+                    <a class="btn btn-success" asp-action="OrderIsDone" asp-route-id="@o.OrderNumber">Dokončená</a>
+                    <a  asp-action="DeleteOrder" asp-route-id="@o.OrderNumber" class="btn btn-danger">Odstranit</a>   
+            </td>
+
+            </tr>
+            
+
+    }
+
+
+</table>
+</body>

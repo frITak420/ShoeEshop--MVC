@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Web.Models.Product>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+
+<style>
+   
+    body {
+        margin: 10px;
+    }
+
+    a {
+        text-decoration: none
+    }
+
+    td img{height:300px;width:350px}
+    .imgTd{display:flex;justify-content:center}
+</style>
+
+
+<body>
+    <table class="table table-bordered table-hover table-dark">
+    <tr>
+        <th>Foto</th>
+        <th>Typ</th>
+        <th>Smazat</th>
+    </tr>
+        @foreach(Photo p in ViewBag.Photos)
+    {
+        @if(p.ProductId == ViewBag.Id)
+        {
+            <tr>
+                 <td class="imgTd"><img src="@p.ImgPath.Remove(0,7)"/></td> 
+                    @if(p.Priority == 1)
+                    {
+                    <td>Hlavní fotka</td>
+                    }
+                    else
+                    {
+                    <td><a class="btn btn-success" asp-controller="Products" asp-action="SetMainPhoto" asp-route-id="@p.ProductId" asp-route-idPhoto="@p.Id">Nastavit jako hlavní fotku</a></td>
+                    }
+                <td><a asp-action="DeletePhoto" asp-controller="Products" asp-route-id="@p.Id" asp-route-idProduct="@p.ProductId" class="btn btn-danger">Smazat fotku</a></td>
+            </tr>
+        }
+    }
+    </table>
+
+    <br>
+    <br>
+
+    <form asp-action="Photos" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label class="form-control">
+                Fotky<br>
+                <input type="file" name="photosDetail" multiple />
+            </label>
+        </div>
+        <br>
+         <div class="form-group">
+                    <button type="submit" class="btn btn-success"><img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" height="15" width="15" />&nbsp; Přidat fotky</button> 
+                    <a asp-action="Index" class="btn btn-secondary"><img src="https://cdn-icons-png.flaticon.com/512/2099/2099238.png" height="15" width="15">&nbsp; Jít zpět</a>
+            </div>
+    </form>
+
+</body>
